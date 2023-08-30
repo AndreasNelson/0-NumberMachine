@@ -1,3 +1,5 @@
+package umm2101;
+
 /**
  * An instance of NumberMachine will track two numbers in private fields.
  * The fields are named firstNumber and secondNumber and both are ints.
