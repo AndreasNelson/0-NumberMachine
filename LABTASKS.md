@@ -5,7 +5,7 @@
       1. Navigate to the top-level folder for this lab (where `pom.xml` is
          located)
       2. Compile `Lab0Main.java` and `NumberMachine.java` using the
-         command `javac -d ./target/classes/ ./scr/main/java/umm2101/*.java`.
+         command `javac -d ./target/classes/ ./src/main/java/umm2101/*.java`.
          > The `-d` option flag says I'm going to specify a directory where to place the compiled code (the files ending in `.class`). This location I specified says, "Starting here (indicated by the `.`), go to the `target` folder and then the `classes` folder." So, this command will put the compiled code in the `/target/classes`  folder. The last part says, "Starting here, navigate to the `umm2101` folder and select all of the files that end in `.java`." Since there are two such files there, it will compile them all.
       3. Run the `main` method of `Lab0Main.java` using the command `java -cp ./target/classes/ umm2101.Lab0Main`.
          > The `-cp` option flag says that I'm going to specify where the .class files can be found. The `umm2101.Lab0Main` tells us that the main method is in the umm2101 package in the Lab0Main class.
