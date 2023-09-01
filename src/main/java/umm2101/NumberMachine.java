@@ -1,3 +1,5 @@
+package umm2101;
+
 /**
  * An instance of NumberMachine will track two numbers in private fields.
  * The fields are named firstNumber and secondNumber and both are ints.
@@ -8,7 +10,8 @@
  * @version 	1.1, 08/29/22
  */
 public class NumberMachine {
- 
+
+  
   private int firstNumber;
   private int secondNumber;
 
@@ -95,7 +98,7 @@ public class NumberMachine {
     // of firstNumber and secondNumber for that instance of NumberMachine 
     // (In the starter code of this assignment, the method returns 0 
     // so that it will compile.)
-    return 0;
+    return firstNumber + secondNumber;
   }
 
 }
